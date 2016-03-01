@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail2">Movie Details</string>
+    <string name="title">Title</string>
+    <string name="spiner">Sort by</string>
+    <string name="shered_pref_sort">Sort</string>
+    <string name="trailer">Trailers:</string>
+    <string name="review">Reviews:</string>
+    <string name="blank_detail">Tap movie to display details.</string>
+</resources>

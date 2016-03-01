@@ -1,0 +1,97 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/green"
+            android:id="@+id/header"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/image_fragment" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/release_date"
+                    android:gravity="center_horizontal"
+                    android:textSize="20dp"
+                    android:layout_margin="16dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_rating"
+                    android:gravity="center"/>
+                <ImageButton
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/button_star"
+                    android:background="@drawable/star_grey"
+                    android:padding="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/overview"
+            android:padding="16dp"/>
+        <View android:id="@+id/separator"
+            android:background="@android:color/black"
+            android:layout_width = "match_parent"
+            android:layout_height="1dip"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trailer"
+            android:layout_margin="16dp"
+            android:textSize="30dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/video_layout"
+            android:orientation="vertical"
+            android:padding="16dp">
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review"
+            android:layout_margin="16dp"
+            android:textSize="30dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/review_layout"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_data">
+        <item>popularity</item>
+        <item>votes average</item>
+        <item>favorites</item>
+    </string-array>
+</resources>
