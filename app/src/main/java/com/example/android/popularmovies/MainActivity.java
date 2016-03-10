@@ -77,12 +77,6 @@ public class MainActivity extends AppCompatActivity implements MainActivityFragm
             return true;
         }
 
-        if (id == R.id.menu_star) {
-            Cursor cursor = getContentResolver().query(FavoritesTable.CONTENT_URI,null,null,null,null);
-            Movies testRow = FavoritesTable.getRow(cursor, true);
-            Log.d("Wypisuje z bazy danych ", testRow.original_title);
-        }
-
         return super.onOptionsItemSelected(item);
     }
 
